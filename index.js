@@ -15,3 +15,11 @@ const johnLennonFacts = (facts) => {
   }
   return facts;
 }
+
+const iLoveTheBeatles = (num) => {
+  let array = [];
+  do {
+    array.push("I love the Beatles!");
+    num++;
+  } while (num < 15);
+}
