@@ -4,7 +4,7 @@ const theBeatlesPlay = (musicians, instruments) => {
   const instruments = ['Guitar', 'Bass Guitar', 'Lead Guitar', 'Drums'];
   for(let i = 0; i <= musicians.length-1; i++){
     let string = `${musicians[i]} plays ${instruments[i]}`
-    
+    string.push(newArr)
   }
 }
 
