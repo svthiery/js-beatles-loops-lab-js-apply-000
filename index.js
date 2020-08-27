@@ -7,3 +7,9 @@ const theBeatlesPlay = (musicians, instruments) => {
   return newArr;
 }
 
+const johnLennonFacts = (facts) => {
+  let i = 0;
+  while(i <= facts.length-1) {
+    
+  }
+}
