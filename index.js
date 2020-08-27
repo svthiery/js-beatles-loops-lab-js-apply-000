@@ -10,6 +10,7 @@ const theBeatlesPlay = (musicians, instruments) => {
 const johnLennonFacts = (facts) => {
   let i = 0;
   while(i <= facts.length-1) {
-    
+    facts[i] = facts[i] + '!!!';
+    i++
   }
 }
