@@ -7,7 +7,7 @@ const theBeatlesPlay = (musicians, instruments) => {
   return newArr;
 }
 
-const johnLennonFacts = (facts) => {
+const johnLennonFacts = (array) => {
   let i = 0;
   while(i <= facts.length-1) {
     facts[i] = facts[i] + "!!!";
